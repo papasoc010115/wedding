@@ -1,0 +1,99 @@
+/*
+Template Name: Habibi Core
+Author: wpoceans
+Version: 1.0
+Email: support@wpoceans.com
+*/
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-content {
+    background: rgba(135, 210, 113, 0.1);
+    padding: 35px 40px;
+    border: none;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title {
+    padding: 0px;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active a {
+    background: #87d271;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title a:hover {
+    background: #87d271;
+    color: #fff;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title a {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2b2e3a;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border: 1px solid rgba(135, 210, 113, 0.5);
+    display: block;
+    margin-right: 3px;
+}
+
+
+.elementor-lightbox .elementor-lightbox-item,
+.elementor-lightbox {
+    display: none !important;
+}
+
+
+.wpo-contact-form-area .wpcf7-spinner {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.wpo-contact-form-area .submit-area p {
+   margin-bottom: 0;
+}
+
+.wpo-contact-form-area .wpcf7-list-item {
+    position: relative;
+    padding-right: 15px;
+}
+.wpo-contact-form-area .wpcf7-list-item.first {
+    margin-left:0 ;
+}
+
+
+@media (max-width: 575px) {
+
+    .wpo-contact-form-area .wpcf7-list-item.last {
+      margin-left: 0;
+      padding-top:  10px;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+ }
+
+.habibi-rsvp-form .wpo-contact-section-wrapper .wpo-contact-form-area .radio-buttons {
+    padding: 0;
+}
+
+.habibi-rsvp-form .wpo-contact-form-area .radio-buttons p {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.rtl-page .wpcf7 input[type="text"], 
+.rtl-page .wpcf7 select, 
+.rtl-page .wpcf7 input[type="url"], 
+.rtl-page .wpcf7 input[type="email"],
+.rtl-page .wpcf7 input[type="tel"] {
+    direction: rtl;
+}
+.rtl-page .wpo-contact-form-area .wpcf7-list-item {
+    padding-right: 0;
+    margin-right: 0;
+}
+
